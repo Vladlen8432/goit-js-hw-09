@@ -79,8 +79,6 @@ function startCountdown() {
 
     const { days, hours, minutes, seconds } = convertMs(timeDifference);
     updateTimeFields(days, hours, minutes, seconds);
-
-    timeDifference -= 1000;
   }, 1000);
 }
 
